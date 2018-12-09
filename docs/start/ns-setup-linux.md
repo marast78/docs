@@ -16,7 +16,7 @@ This page contains a list of all system requirements needed to build and run Nat
 
 ## System Requirements
 
-* Ubuntu 14.04 LTS
+* Ubuntu 14.04/16.04/18.04 LTS
 * The latest stable official release of Node.js (LTS) [8.x](https://nodejs.org/dist/latest-v8.x/) 
 * G++ compiler
 * JDK 8
@@ -52,10 +52,15 @@ Complete the following steps to set up NativeScript on your Linux development ma
 4. Install [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
     1. Run the following commands.
 
-        <pre class="add-copy-button"><code class="language-terminal">sudo apt-get install python-software-properties
+        <pre class="add-copy-button"><code class="language-terminal">
+        sudo apt-get install python-software-properties
         sudo add-apt-repository ppa:webupd8team/java
         sudo apt-get update
         sudo apt-get install oracle-java8-installer
+        </code></pre>
+        If python-software-properties does not exist, run the following command:
+        <pre class="add-copy-button"><code class="language-terminal">
+        sudo apt-get install software-properties-common
         </code></pre>
 
     2. After installation if you have multiple installations of java you can choose which to use:
